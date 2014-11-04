@@ -41,6 +41,6 @@ import lombok.AccessLevel;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface FieldDefaults {
-	AccessLevel level() default AccessLevel.NONE;
+	lombok.AccessLevel level() default lombok.AccessLevel.NONE;
 	boolean makeFinal() default false;
 }

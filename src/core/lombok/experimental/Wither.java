@@ -57,7 +57,7 @@ public @interface Wither {
 	/**
 	 * If you want your wither to be non-public, you can specify an alternate access level here.
 	 */
-	AccessLevel value() default AccessLevel.PUBLIC;
+	lombok.AccessLevel value() default lombok.AccessLevel.PUBLIC;
 	
 	/**
 	 * Any annotations listed here are put on the generated method. The syntax for this feature is: {@code @Setter(onMethod=@__({@AnnotationsGoHere}))}

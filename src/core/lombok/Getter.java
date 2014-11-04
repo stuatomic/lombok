@@ -60,7 +60,7 @@ public @interface Getter {
 	/**
 	 * Any annotations listed here are put on the generated method. The syntax for this feature is: {@code @Getter(onMethod=@__({@AnnotationsGoHere}))}
 	 */
-	AnyAnnotation[] onMethod() default @AnyAnnotation;
+//	AnyAnnotation[] onMethod() default @AnyAnnotation;
 	
 	boolean lazy() default false;
 	
@@ -68,8 +68,8 @@ public @interface Getter {
 	  * Placeholder annotation to enable the placement of annotations on the generated code.
 	  * @deprecated Don't use this annotation, ever - Read the documentation.
 	  */
-	@Deprecated
-	@Retention(RetentionPolicy.SOURCE)
-	@Target({})
-	@interface AnyAnnotation {}
+//	@Deprecated
+//	@Retention(RetentionPolicy.SOURCE)
+//	@Target({})
+//	@interface AnyAnnotation {}
 }
